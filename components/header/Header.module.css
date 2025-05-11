@@ -1,0 +1,16 @@
+/* ======
+Header Layout
+====== */
+.header {
+  display: flex;
+  justify-content: center;
+	padding: 1.25rem;
+  background-color: #000000
+}
+
+.header_title {
+	max-width: fit-content;
+	margin: 0 auto;
+  color: white;
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
+}

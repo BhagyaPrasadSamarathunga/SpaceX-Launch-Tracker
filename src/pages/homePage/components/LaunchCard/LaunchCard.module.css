@@ -1,0 +1,65 @@
+/* ======
+Launch Card Layout
+====== */
+.container {
+  display: inline-flex;
+  flex-direction: column;
+	gap: 10px;
+  width: 300px;
+  height: 510px;
+	padding: 1rem;
+	margin: 8px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	background-color: rgb(32, 37, 55);
+}
+
+.header_container {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+.title_container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.title {
+	display: flex;
+  flex-direction: column;
+	align-self: flex-start;
+}
+
+.name {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.date {
+	font-size: 0.85rem;
+	color: #b8b8b8;
+	font-weight: 400;
+}
+
+/* Images */
+.img {
+	max-width: 100%;
+}
+
+.card__content {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	overflow: scroll;
+}
+
+.status_badge {
+	display: flex;
+	align-self: flex-end;
+	width: 100px;
+}
