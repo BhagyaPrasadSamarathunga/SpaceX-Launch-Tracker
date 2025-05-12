@@ -25,7 +25,7 @@ npm run dev
 npm test
 ```
 ## Demo 
-Here's a demo gif showing the swiping functionality and the summary view:
+Here's a demo gif to showing the pagination behaviour:
 
 <img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/SpaceX-Launch-Tracker.gif" width="900" />
 
