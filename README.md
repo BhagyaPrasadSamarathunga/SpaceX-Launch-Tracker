@@ -24,7 +24,12 @@ npm run dev
 ```
 npm test
 ```
+## Demo 
+Here's a demo gif showing the swiping functionality and the summary view:
 
+<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/SpaceX-Launch-Tracker.gif" width="900" />
+
+## Features 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
